@@ -1,0 +1,278 @@
+<!doctype html>
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>レース・戦績 | 池田優介 YUSUKE IKEDA</title>
+    <meta
+      name="description"
+      content="池田優介のレース日程・戦績。2025年の筑波・SUGO ST600（NAT）年間ランキング1位など、これまでの挑戦をご紹介します。"
+    />
+    <link rel="canonical" href="https://yusukeracing.github.io/race.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="YUSUKE IKEDA" />
+    <meta property="og:title" content="レース・戦績 | 池田優介 YUSUKE IKEDA" />
+    <meta
+      property="og:description"
+      content="池田優介のレース日程・戦績。2025年の筑波・SUGO ST600（NAT）年間ランキング1位など、これまでの挑戦をご紹介します。"
+    />
+    <meta
+      property="og:url"
+      content="https://yusukeracing.github.io/race.html"
+    />
+    <meta
+      property="og:image"
+      content="https://yusukeracing.github.io/images/ogp.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="YUSUKE IKEDA / ALL JAPAN ROAD RACE。背景はイメージビジュアルです。"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#050505" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+
+  <body data-page="race">
+    <a class="skip-link" href="#main">本文へスキップ</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-symbol" aria-hidden="true">Y<span>/</span>I</span
+          ><span class="brand-type"
+            >YUSUKE IKEDA<small>OFFICIAL SUPPORT WEBSITE</small></span
+          ><span class="sr-only">ホーム</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="menu-lines" aria-hidden="true"></span
+          ><span class="menu-text">MENU</span>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="メインナビゲーション"
+        >
+          <a href="index.html">HOME</a><a href="profile.html">PROFILE</a
+          ><a href="race.html" aria-current="page">RACE</a
+          ><a href="sponsor.html">SPONSOR</a><a href="support.html">SUPPORT</a
+          ><a href="news.html">NEWS</a><a href="contact.html">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <nav class="breadcrumb" aria-label="パンくず">
+            <a href="index.html">HOME</a><span aria-hidden="true">/</span
+            ><span>レース・戦績</span>
+          </nav>
+          <p class="eyebrow">YUSUKE IKEDA / RACE SCHEDULE & RESULTS</p>
+          <h1 class="display">RACE<span class="title-dot">.</span></h1>
+          <p class="page-lead">全日本で戦う。その一周を、見届けてほしい。</p>
+        </div>
+        <span class="hero-coordinate" aria-hidden="true"
+          >JAPAN / MOTORSPORT</span
+        >
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / 現在の挑戦</p>
+              <h2 class="display">CURRENT SEASON</h2>
+            </div>
+          </div>
+
+          <div class="season-overview">
+            <h3>全日本ロードレース選手権</h3>
+            <p>参戦クラス：<span data-category>正式発表後に掲載予定</span></p>
+            <p>所属：<span data-team>正式発表後に掲載予定</span></p>
+          </div>
+
+          <div class="next-race reveal" data-next-race>
+            <div>
+              <p class="eyebrow">NEXT RACE</p>
+              <span class="next-date display" data-next-date
+                >TO BE ANNOUNCED</span
+              >
+            </div>
+
+            <div>
+              <span class="status"
+                ><i></i> 全日本ロードレース選手権 挑戦中</span
+              >
+              <h3 data-next-circuit>次の挑戦は、ここから。</h3>
+              <p data-next-detail>
+                次戦の日程・サーキットは、確定次第お知らせします。
+              </p>
+              <p class="countdown" data-countdown hidden></p>
+            </div>
+            <a class="button button-outline" href="#schedule"
+              ><span>日程を見る</span><span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">02 / これからのレース</p>
+              <h2 class="display">RACE SCHEDULE</h2>
+            </div>
+          </div>
+
+          <div class="race-list" id="schedule" data-schedule>
+            <div class="empty-state">
+              <span class="status"><i></i> INFORMATION</span>
+              <h3>日程は、確定次第お知らせします。</h3>
+              <p>
+                確認済みの日程のみ掲載します。観戦前には主催者の最新案内もご確認ください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="results">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">03 / これまでの戦績</p>
+              <h2 class="display">RESULTS</h2>
+            </div>
+          </div>
+
+          <div
+            class="filter-bar"
+            role="group"
+            aria-label="戦績の年を選択"
+            data-result-filters
+          ></div>
+
+          <div class="results-table-wrap">
+            <table class="results-table">
+              <caption class="sr-only">
+                年間ランキング・耐久レース戦績
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">YEAR</th>
+                  <th scope="col">CHAMPIONSHIP</th>
+                  <th scope="col">CATEGORY</th>
+                  <th scope="col">RESULT</th>
+                </tr>
+              </thead>
+
+              <tbody data-results></tbody>
+            </table>
+          </div>
+
+          <div data-race-results></div>
+          <p class="content-note">
+            選手提供の戦績を掲載。各大会の詳細な予選・決勝結果は、確認後に追加します。
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">04 / 初めてのレース観戦へ</p>
+              <h2 class="display">GO TO THE RACE</h2>
+            </div>
+          </div>
+
+          <div class="three-grid">
+            <article class="info-card">
+              <span class="card-number">01</span>
+              <h3>開催情報を確認する</h3>
+              <p>
+                日程と会場、観戦チケットを主催者の公式サイトで確認しましょう。タイムスケジュールは直前に更新されることがあります。
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-number">02</span>
+              <h3>サーキットへ行く</h3>
+              <p>
+                歩きやすい靴、耳栓、雨具を準備。観戦エリアやピットへの入場は、会場の案内に従ってお楽しみください。
+              </p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-number">03</span>
+              <h3>その一周を応援する</h3>
+              <p>
+                レーシングマシンの音、コーナーの緊張感。画面越しとは違うレースの熱を、ぜひ会場で感じてください。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-section">
+        <div class="container social-inner">
+          <div>
+            <p class="eyebrow">ON & OFF THE TRACK</p>
+            <h2 class="display">FOLLOW THE JOURNEY.</h2>
+            <p>サーキットの熱も、日々の挑戦も。</p>
+          </div>
+
+          <div class="social-links" data-social-links></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand footer-brand" href="index.html"
+          ><span class="brand-symbol" aria-hidden="true">Y<span>/</span>I</span
+          ><span class="brand-type"
+            >YUSUKE IKEDA<small>ONE RIDER. A CONTINUING CHALLENGE.</small></span
+          ></a
+        >
+        <nav class="footer-nav" aria-label="フッターナビゲーション">
+          <a href="index.html">HOME</a><a href="profile.html">PROFILE</a
+          ><a href="race.html" aria-current="page">RACE</a
+          ><a href="sponsor.html">SPONSOR</a><a href="support.html">SUPPORT</a
+          ><a href="news.html">NEWS</a><a href="contact.html">CONTACT</a>
+        </nav>
+
+        <div class="footer-social" data-social-links></div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span data-current-year>2026</span> YUSUKE IKEDA SUPPORT PROJECT
+        </p>
+        <span>MIYAGI, JAPAN / ALL JAPAN ROAD RACE</span
+        ><a href="contact.html">お問い合わせ・個人情報の取り扱い ↗</a>
+      </div>
+    </footer>
+    <noscript
+      ><p class="noscript-note">
+        写真の自動切替や追加の戦績表示にはJavaScriptが必要です。2025年は筑波・SUGO
+        ST600（NAT）年間ランキング1位。プロフィールとページ間の移動はそのままご利用いただけます。
+      </p></noscript
+    >
+  </body>
+</html>

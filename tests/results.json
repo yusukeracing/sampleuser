@@ -85,5 +85,87 @@
       "capture": true
     }
   ],
+  "checks": [
+    {
+      "name": "menu / index.html / 375px",
+      "passed": true
+    },
+    {
+      "name": "pricing navigation / 375px",
+      "passed": true
+    },
+    {
+      "name": "menu / demos/cafe.html / 375px",
+      "passed": true
+    },
+    {
+      "name": "menu / demos/builder.html / 375px",
+      "passed": true
+    },
+    {
+      "name": "menu / demos/athlete.html / 375px",
+      "passed": true
+    },
+    {
+      "name": "menu / index.html / 768px",
+      "passed": true
+    },
+    {
+      "name": "pricing navigation / 768px",
+      "passed": true
+    },
+    {
+      "name": "menu / demos/cafe.html / 768px",
+      "passed": true
+    },
+    {
+      "name": "menu / demos/builder.html / 768px",
+      "passed": true
+    },
+    {
+      "name": "menu / demos/athlete.html / 768px",
+      "passed": true
+    },
+    {
+      "name": "pricing navigation / 1440px",
+      "passed": true
+    },
+    {
+      "name": "unset consultation link stays local and opens an accessible dialog",
+      "passed": true
+    },
+    {
+      "name": "FAQ answers can be opened and closed",
+      "passed": true
+    },
+    {
+      "name": "category filtering / cafe",
+      "passed": true
+    },
+    {
+      "name": "category filtering / builder",
+      "passed": true
+    },
+    {
+      "name": "category filtering / athlete",
+      "passed": true
+    },
+    {
+      "name": "demo form validates, renders input as text, clears it, and never sends",
+      "passed": true
+    },
+    {
+      "name": "local demo notice / reservation",
+      "passed": true
+    },
+    {
+      "name": "local demo notice / social",
+      "passed": true
+    },
+    {
+      "name": "local demo notice / support",
+      "passed": true
+    }
+  ],
   "errors": []
 }

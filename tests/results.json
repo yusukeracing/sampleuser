@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "path": "index.html",
+      "width": 375,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/cafe.html",
+      "width": 375,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/builder.html",
+      "width": 375,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/athlete.html",
+      "width": 375,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/cafe.html",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/builder.html",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/athlete.html",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/cafe.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/builder.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    },
+    {
+      "path": "demos/athlete.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "capture": true
+    }
+  ],
+  "errors": []
+}
